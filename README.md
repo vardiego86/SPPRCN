@@ -85,3 +85,7 @@ Once finished, there  are two options for  visualization  of the  particle migra
 ![simulation_output](Figures/sim_cohort.png) 
 
 **Figure 7**- Simulated cohort, colored by AJ concentration.
+
+## Improvements Implemented but not Shared
+
+A version of the model that parallelized the code was also developed. The DAEs for the RCN were solved in parallel in different processing cores. This  sped up the code and allowed for longer simulations. The code is not shared, since this requires a Mathworks toolbox (Parallel computing) not available with the standard license.
