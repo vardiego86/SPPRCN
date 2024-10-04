@@ -73,6 +73,8 @@ Another set of important parameters in SPP models are the number of cell (N) in 
 
 **Figure 6** -  Effect of adjerens junction (AJ) concentration on speed (vp) of each particle p: vp is determined by scaling the maximum possible speed vmax = 0.2 μm/min by the scaling factor contained in straight brackets. AJp stands for the AJ expression by particle p, while <AJeq> is the approximate expression of AJs at equilibrium (determined by RCN model).
 
+#### Running the Code
+
 All scripts can  be  found in folder *MATLAB_code*:
 
 To run, start *main_conc_ser.m*
